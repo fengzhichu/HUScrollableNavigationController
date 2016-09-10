@@ -87,7 +87,7 @@
     
     _delayDistance = distance;
     _maxDelay = distance;
-    _canNavigationBarScroll = YES;
+    // _canNavigationBarScroll = YES;
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(appDidBecomeActive:) name:UIApplicationDidBecomeActiveNotification object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(deviceDidChangeOrientation:) name:UIDeviceOrientationDidChangeNotification object:nil];
